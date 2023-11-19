@@ -3,10 +3,13 @@
   "version": "0.2.0",
   "private": true,
   "description": "Starter template to get up and running quickly with Vue and Storybook",
-  "author": "Chromatic <https://chromatic.com/>",
+  "author": {
+    "name": "Chromatic",
+    "email": "https://chromatic.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chromaui/intro-storybook-vue-template"
+    "url": "git+https://github.com/chromaui/intro-storybook-vue-template.git"
   },
   "bugs": {
     "url": "https://github.com/chromaui/intro-storybook-vue-template/issues"
@@ -21,7 +24,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_14f679435f188a6"
   },
   "dependencies": {
     "@storybook/test-runner": "^0.15.1",
@@ -39,6 +43,7 @@
     "@storybook/vue3-vite": "^7.0.6",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-prettier": "^7.1.0",
+    "chromatic": "^9.1.0",
     "eslint": "^8.34.0",
     "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-vue": "^9.9.0",
@@ -49,5 +54,8 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.0.6",
     "vite": "^4.1.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/chromaui/intro-storybook-vue-template#readme",
+  "_id": "intro-storybook-vue-template@0.2.0"
 }
